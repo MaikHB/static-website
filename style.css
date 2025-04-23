@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	background-image: url(assets/banner-bg.jpg);
+	background-image: url(assets/banner-bg1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -25,7 +25,7 @@ header {
 }
 
 .main-nav li a {
-	color: white;
+	color: darkorange;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: "Roboto", sans-serif;
@@ -60,7 +60,7 @@ header {
 
 h1 {
 	font-family: "Roboto", sans-serif;
-	color: white;
+	color: darkorange;
 	text-transform: uppercase;
 	font-size: 70px;
 	text-align: center;
@@ -101,23 +101,36 @@ h1 {
 .grid-item {
 	padding: 20px;
 }
+.grid-item1 {
+	background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px auto; 
+    max-width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .service {
-	background-image: url(assets/img-banner@2x.png);
+	background-image: url(assets/banner2.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .about {
-	background-image: url(assets/DSC_0036.JPG);
+	background-image: url(assets/banner3.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .blog {
-	background-image: url(assets/banner-texture@2x.png);
+	background-image: url(assets/banner4.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -125,14 +138,14 @@ h1 {
 }
 
 .contact {
-	background-image: url(assets/img-contact-form-bg.jpg);
+	background-image: url(assets/banner6.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .faq {
-	background-image: url(assets/img-prop-type@2x.jpg);
+	background-image: url(assets/banner5.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -145,7 +158,7 @@ h1 {
 }
 
 .contact-section-header {
-	color: #282828;
+	color: white;
 	font-family: "Roboto", sans-serif;
 	font-size: 25px;
 	margin-bottom: 20px;
